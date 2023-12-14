@@ -62,9 +62,9 @@ python manage.py runserver
 
 <br/>
 
-   [![Run in Postman](https://run.pstmn.io/button.svg)](https://api.postman.com/collections/12167432-1f471f83-c37d-4bac-8300-25abc7b69911?access_key=PMAT-01HHKH3FC71PYSXSYJJCK2FX27)
+   [![Postman API Collection](https://run.pstmn.io/button.svg)](https://api.postman.com/collections/12167432-eb094d03-3159-42e7-aa72-c5d47ba0c41c?access_key=PMAT-01HHKJMYYM9EHSWFDVF62EPJBR)
 
-     Click the `Run in Postman` button above to open the collection in your Postman application. This collection includes requests for each API endpoint, allowing you to easily test and explore the functionality of the Vendor Management System.
+     Click the button above to open the collection. Copy the URL and paste that url in Postman Under Import New Collection. This collection includes requests for each API endpoint, allowing you to easily test and explore the functionality of the Vendor Management System.
 
 <br/>
 
