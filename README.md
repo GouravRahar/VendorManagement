@@ -1,4 +1,78 @@
 # Vendor Profile Management
+
+
+## Project Setup Guide
+
+Follow these steps to set up and run the Vendor Management System project.
+
+### Prerequisites
+Ensure you have the following installed on your system:
+
+ - Python (version 3.6 or higher)
+ - Database (SQLite or any other supported by Django)
+
+   
+### Steps to Set Up
+1. Clone the Repository:
+
+```
+git clone https://github.com/GouravRahar/VendorManagement.git
+cd vendor-management-system
+```
+
+2. Create and Activate Virtual Environment:
+
+
+```
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
+
+3. Install Dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+4. Apply Migrations:
+
+```
+python manage.py migrate
+```
+
+5. Create Superuser:
+
+```
+python manage.py createsuperuser
+```
+
+6. Run the Development Server:
+
+```
+python manage.py runserver
+```
+
+7. Access the Admin Panel:
+   
+   Open your browser and go to `http://127.0.0.1:8000/admin/` Log in with the superuser credentials created in step 5.
+
+9. Access API Endpoints:
+    
+   You can easily interact with the Vendor Management System API using Postman. To streamline your testing process, I've created a Postman collection that includes requests for all the API endpoints.
+
+<br/>
+
+   [![Run in Postman](https://run.pstmn.io/button.svg)](https://api.postman.com/collections/12167432-1f471f83-c37d-4bac-8300-25abc7b69911?access_key=PMAT-01HHKH3FC71PYSXSYJJCK2FX27)
+
+     Click the `Run in Postman` button above to open the collection in your Postman application. This collection includes requests for each API endpoint, allowing you to easily test and explore the functionality of the Vendor Management System.
+
+<br/>
+
+
+<br/>
+
+
+
 ## Model Design
 ### 1. Vendor Model
 This model stores essential information about each vendor and their performance metrics.
